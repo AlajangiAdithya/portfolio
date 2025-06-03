@@ -8,7 +8,7 @@ const Projects = () => {
     {
       title: "Personal Portfolio Website",
       image: "/images/portfolio.png",
-      github: "https://github.com/yourusername/portfolio",
+      github: "https://github.com/AlajangiAdithya/portfolio.git",
       demo: "https://yourportfolio.com",
       techStack: ["React.js", "CSS3", "Framer Motion", "Vite", "Netlify"],
     },
