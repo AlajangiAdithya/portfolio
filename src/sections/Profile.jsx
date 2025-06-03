@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import "../styles/profile.css";
+import "../styles/Profile.css";
 
 const Profile = () => {
   const [showHello, setShowHello] = useState(true);
