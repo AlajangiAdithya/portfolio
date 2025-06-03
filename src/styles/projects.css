@@ -1,0 +1,129 @@
+.projects-section {
+  background: #1C1C1C;
+  padding: 60px 20px;
+  text-align: center;
+  color: #F6F6F6;
+}
+
+.projects-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.project-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.scroll-btn {
+  background: #F6AD55;
+  color: #1C1C1C;
+  border: none;
+  padding: 12px;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.scroll-btn:hover {
+  background: #DD8F42;
+}
+
+/* Project Card */
+.project-card {
+  display: flex;
+  align-items: center;
+  height: 350px;
+  width: 800px;
+  background: #292929;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+/* Left Side: Project Image */
+.project-image-container {
+  width: 45%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Right Side: Project Details */
+.project-details {
+  width: 55%;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.project-details h3 {
+  font-size: 1.6rem;
+  color: #F6F6F6;
+  margin-bottom: 10px;
+}
+
+/* Tech Stack in Each Project */
+.tech-stack {
+  margin-top: 10px;
+  padding: 15px;
+  background: #222;
+  border-radius: 6px;
+  color: #F6F6F6;
+}
+
+.tech-stack h4 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  color: #F6AD55;
+}
+
+.tech-stack ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tech-stack li {
+  font-size: 1rem;
+  color: #AAAAAA;
+}
+.project-links {
+  display: flex;
+  flex-direction: row; /* Change from column to row */
+  gap: 15px; /* Add some spacing between buttons */
+  justify-content: center;
+   margin-top: 20px;
+}
+
+.btn {
+  background: #F6AD55;
+  color: #1C1C1C;
+  padding: 15px 20px; /* Reduced size */
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.8rem; /* Slightly smaller text */
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #DD8F42;
+}
+
+.btn.secondary {
+  background: transparent;
+  border: 2px solid #F6AD55;
+  color: #F6AD55;
+}
+
+.btn.secondary:hover {
+  background: #F6AD55;
+  color: #1C1C1C;
+}

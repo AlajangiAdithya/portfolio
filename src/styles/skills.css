@@ -1,0 +1,55 @@
+/* src/styles/skills.css */
+.skills-section {
+  background: #1C1C1C;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.skills-section h2 {
+  color: #F6F6F6;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.skills-intro {
+  color: #AAAAAA;
+  font-size: 1.15rem;
+  margin-bottom: 30px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  width: 100px;
+  text-align: center;
+}
+
+.skill-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 8px;
+  transition: transform 0.3s ease;
+}
+
+.skill:hover .skill-logo {
+  transform: scale(1.15);
+}
+
+.skill p {
+  font-size: 0.95rem;
+  color: #F6F6F6;
+  margin: 0;
+}
