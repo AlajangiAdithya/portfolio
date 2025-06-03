@@ -9,7 +9,7 @@ const Projects = () => {
       title: "Personal Portfolio Website",
       image: "/images/portfolio.png",
       github: "https://github.com/AlajangiAdithya/portfolio.git",
-      demo: "https://yourportfolio.com",
+      demo: "https://iamadithya.netlify.app/",
       techStack: ["React.js", "CSS3", "Framer Motion", "Vite", "Netlify"],
     },
     {
